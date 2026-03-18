@@ -16,7 +16,6 @@ This is meant to be a log of me following @DeRonin_'s [twitter article](https://
 ---
 
 ## 📅 Month 1: Software & API Fundamentals
-*AI engineering is first and foremost software engineering. You need to be able to write clean code, manage environments, and build APIs before connecting any LLMs.*
 
 ### Core Focus
 * **Python:** Variables, loops, OOP, `async/await`, error handling, and virtual environments (`venv`).
@@ -28,7 +27,6 @@ This is meant to be a log of me following @DeRonin_'s [twitter article](https://
 * **Python:** [CS50P (Harvard)](https://cs50.harvard.edu/python/) | [freeCodeCamp Python](https://www.youtube.com/watch?v=rfscVS0vtbw)
 * **Git:** [Learn Git Branching](https://learngitbranching.js.org/)
 * **FastAPI:** [FastAPI Official Tutorial](https://fastapi.tiangolo.com/tutorial/)
-* *Practice:* Build a simple FastAPI app that reads/writes data to a local JSON file or SQLite DB.
 
 ---
 
@@ -45,7 +43,6 @@ This is meant to be a log of me following @DeRonin_'s [twitter article](https://
 * **Ollama Setup:** [Ollama Official Docs & GitHub](https://github.com/ollama/ollama)
 * **Python Client:** [Ollama Python Library](https://github.com/ollama/ollama-python)
 * **Prompting:** [Anthropic Interactive Prompt Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) *(Concepts apply universally to local models)*.
-* *Practice:* Build a local terminal chatbot using Python + Ollama. Add a "summarize" function that forces the model to output a strictly formatted JSON object.
 
 ---
 
@@ -62,7 +59,6 @@ This is meant to be a log of me following @DeRonin_'s [twitter article](https://
 * **Vector DB:** [Chroma Docs](https://docs.trychroma.com/) (Runs entirely local/in-memory).
 * **RAG Framework:** [LlamaIndex Local Model Docs](https://docs.llamaindex.ai/en/stable/module_guides/models/llms/usage_custom/#local-models)
 * **Embeddings:** [HuggingFace Embedding Guide](https://huggingface.co/blog/getting-started-with-embeddings)
-* *Practice:* Build a "Chat with your PDFs" app. Ingest local PDFs, embed them locally, and use a local Llama 3 model to answer questions based on the retrieved text.
 
 ---
 
@@ -79,7 +75,6 @@ This is meant to be a log of me following @DeRonin_'s [twitter article](https://
 * **Workflows:** [LangGraph Crash Course](https://academy.langchain.com/courses/intro-to-langgraph)
 * **Agent Concepts:** [Anthropic: Building Effective Agents](https://www.anthropic.com/research/building-effective-agents)
 * **Evaluation:** [DeepEval Docs](https://deepeval.com/docs/getting-started)
-* *Practice:* Build a 3-step local workflow: 1. Extract facts from a URL. 2. Draft a social post. 3. Review and score the post. All running sequentially through Ollama.
 
 ---
 
@@ -96,12 +91,10 @@ This is meant to be a log of me following @DeRonin_'s [twitter article](https://
 * **Docker:** [Docker Official Guide](https://docs.docker.com/get-started/)
 * **Production Inference:** [vLLM GitHub / Docs](https://github.com/vllm-project/vllm)
 * **Caching:** [GPTCache](https://github.com/zilliztech/GPTCache)
-* *Practice:* Containerize your RAG app. Set up Docker Compose so that running `docker compose up` starts FastAPI, Chroma, and an Ollama service that auto-pulls the required models.
 
 ---
 
 ## 📅 Month 6: Specialize
-*Take your local AI skills and dive deep into one specific path.*
 
 * **Direction 1: AI Product Engineer:** Focus on building frontends for your local models using Streamlit, Gradio, or Vercel AI SDK. Build end-to-end apps you can demo.
 * **Direction 2: Applied ML / Local Fine-Tuning:** Dive deep into HuggingFace. Learn to fine-tune open-weights models on consumer hardware using tools like [Unsloth](https://github.com/unslothai/unsloth) or [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). Understand LoRA, QLoRA, and GGUF conversion.
