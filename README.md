@@ -1,10 +1,8 @@
 # 🚀 The Local-First AI Engineer Roadmap (6 Months)
 
-Most beginners have no clear idea what to study to become an AI Engineer. They get stuck in theory, endlessly watch tutorials, or jump straight to complex agents without understanding the basics. 
+This is meant to be a log of me following @DeRonin_'s [twitter article](https://x.com/DeRonin_/status/2033587293064204349), detailing a roadmap to being an AI engineer. Given the length of the course, I thought that I might as well learn to use open source models as well such that it is a closed loop learning experience.
 
-If your goal is to build real, useful AI systems, you don't need to master heavy ML theory. You need to learn how to build end-to-end applications. **This roadmap is entirely focused on a local-first approach:** using **Ollama**, local open-weights models (like Llama 3, Mistral, Gemma), and your own hardware to build production-ready AI tools.
-
-## 📌 Phase Overview
+## 📌 @DeRonin_'s Phase Overview (supplemented with Ollama)
 
 | Month | Focus Area | Core Technologies |
 | :--- | :--- | :--- |
