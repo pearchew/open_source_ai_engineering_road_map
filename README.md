@@ -1,6 +1,6 @@
 # 🚀 The Local-First AI Engineer Roadmap (6 Months)
 
-This is meant to be a log of me following @DeRonin_'s [twitter article](https://x.com/DeRonin_/status/2033587293064204349), detailing a roadmap to being an AI engineer. Given the length of the course, I thought that I might as well learn to use open source models as well such that it is a closed loop learning experience.
+This is meant to be a log of me following @DeRonin_'s [twitter article](https://x.com/DeRonin_/status/2033587293064204349), detailing a roadmap to being an AI engineer. This is a more distilled version and focuses on running through all the core topics quickly, just as a personal understanding/passion project to work through
 
 ## 📌 @DeRonin_'s Phase Overview (supplemented with Ollama)
 
