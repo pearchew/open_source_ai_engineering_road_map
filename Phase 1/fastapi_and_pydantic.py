@@ -19,6 +19,9 @@ class LLMQuery(BaseModel):
         # app: This is your FastAPI server manager (the one we created with app = FastAPI()). We are calling on it to do some work.
         # .post: This specifies the HTTP Method. It tells your server, "Only listen for POST requests here." If someone tries to send a GET request to this URL, the server will automatically reject it.
         # ("/generate"): This is the Path or Route. It tells the server where to listen.
+            # When you run Uvicorn on your computer, your server lives at a specific address: http://127.0.0.1:8000.
+            # The "/generate" part means that this function will only run when someone sends a POST request to http://127.0.0.1:8000/generate
+            
 @app.post("/generate")
 async def generate_text(query: LLMQuery):
     # Because of Pydantic, we know 'query.prompt' is guaranteed to be a string!
